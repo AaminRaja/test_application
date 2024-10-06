@@ -11,5 +11,5 @@ app.get('/birthdayWish', (req, res) => {
 
 const port = process.env.PORT || 4040;
 app.listen(port, () => {
-    console.log(`Server running on port : http://localhost:${port}`);
+    console.log(`Server running on port : http://192.168.0.117:${port}`);
 });
